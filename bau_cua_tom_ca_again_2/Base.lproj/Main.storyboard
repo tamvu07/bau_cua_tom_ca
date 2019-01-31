@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bau_cua_tom_ca_again_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MEN-YD-MaJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DqA-NP-UD1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lZk-3W-b0W" userLabel="View_xanh">
+                                <rect key="frame" x="368" y="70" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bau.png" translatesAutoresizingMaskIntoConstraints="NO" id="PBu-ta-2O9">
+                                        <rect key="frame" x="-38" y="29" width="126" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PBu-ta-2O9" secondAttribute="height" multiplier="1:1" id="aLl-kf-aa6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="PBu-ta-2O9" firstAttribute="centerY" secondItem="lZk-3W-b0W" secondAttribute="centerY" id="Mem-Hq-WaW"/>
+                                    <constraint firstItem="PBu-ta-2O9" firstAttribute="width" secondItem="lZk-3W-b0W" secondAttribute="width" multiplier="1:2" id="Nsb-s7-Ere"/>
+                                    <constraint firstItem="PBu-ta-2O9" firstAttribute="centerX" secondItem="lZk-3W-b0W" secondAttribute="centerX" id="tVE-mQ-hC3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91s-VU-AnA" userLabel="View_vang">
+                                <rect key="frame" x="148" y="206" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bau.png" translatesAutoresizingMaskIntoConstraints="NO" id="qhC-lM-uMK">
+                                        <rect key="frame" x="21" y="8" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qhC-lM-uMK" secondAttribute="height" multiplier="1:1" id="YFv-cB-xlt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="qhC-lM-uMK" firstAttribute="centerY" secondItem="91s-VU-AnA" secondAttribute="centerY" id="BA9-x9-JtA"/>
+                                    <constraint firstItem="qhC-lM-uMK" firstAttribute="centerX" secondItem="91s-VU-AnA" secondAttribute="centerX" id="U1g-Dg-asw"/>
+                                    <constraint firstItem="qhC-lM-uMK" firstAttribute="width" secondItem="91s-VU-AnA" secondAttribute="width" multiplier="1:2" id="aP4-LI-m9R"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9LJ-66-Otw" userLabel="View_do">
+                                <rect key="frame" x="65" y="54" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bau.png" translatesAutoresizingMaskIntoConstraints="NO" id="4iQ-K4-dRh">
+                                        <rect key="frame" x="8" y="0.0" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4iQ-K4-dRh" firstAttribute="centerX" secondItem="9LJ-66-Otw" secondAttribute="centerX" id="NCx-Za-3S4"/>
+                                    <constraint firstItem="4iQ-K4-dRh" firstAttribute="centerY" secondItem="9LJ-66-Otw" secondAttribute="centerY" id="pwa-YN-MiA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="9LJ-66-Otw" secondAttribute="bottom" id="4CO-Bl-HNa"/>
+                            <constraint firstItem="lZk-3W-b0W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="5cs-j5-0TL"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="lZk-3W-b0W" secondAttribute="bottom" id="69i-f2-M6D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lZk-3W-b0W" secondAttribute="trailing" id="6IY-52-Db4"/>
+                            <constraint firstItem="9LJ-66-Otw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="BQa-6Q-Qf6"/>
+                            <constraint firstItem="lZk-3W-b0W" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:1" id="CrA-c5-EIh"/>
+                            <constraint firstItem="9LJ-66-Otw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:1" id="Dqq-F1-5BH"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="91s-VU-AnA" secondAttribute="bottom" id="GmA-TF-yOG"/>
+                            <constraint firstItem="4iQ-K4-dRh" firstAttribute="height" secondItem="PBu-ta-2O9" secondAttribute="height" multiplier="1:1" id="HWM-Mc-2s1"/>
+                            <constraint firstItem="9LJ-66-Otw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="Opv-TZ-eGO"/>
+                            <constraint firstItem="91s-VU-AnA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="Qxz-nm-BQR"/>
+                            <constraint firstItem="91s-VU-AnA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="SRe-Kw-KaY"/>
+                            <constraint firstItem="9LJ-66-Otw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SkY-gK-6ec"/>
+                            <constraint firstItem="91s-VU-AnA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tlv-jX-z8w"/>
+                            <constraint firstItem="lZk-3W-b0W" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="exw-cL-4Vz"/>
+                            <constraint firstItem="4iQ-K4-dRh" firstAttribute="width" secondItem="PBu-ta-2O9" secondAttribute="width" multiplier="1:1" id="rYL-AZ-7zI"/>
+                            <constraint firstItem="91s-VU-AnA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tTQ-Yx-ryb"/>
+                            <constraint firstItem="91s-VU-AnA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:1" id="ubk-1z-9A0"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bau_left" destination="4iQ-K4-dRh" id="WIv-8p-Kzv"/>
+                        <outlet property="bau_main" destination="qhC-lM-uMK" id="n7n-CA-tEe"/>
+                        <outlet property="bau_right" destination="PBu-ta-2O9" id="U6Q-gG-qcC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="63"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bau.png" width="300" height="300"/>
+    </resources>
+</document>
